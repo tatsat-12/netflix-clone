@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": ["@pinia/nuxt", "@types/node"],
+    "paths": {
+      "#app": ["./.nuxt/types/app"],
+      "#imports": ["./.nuxt/types/imports"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.vue"],
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}

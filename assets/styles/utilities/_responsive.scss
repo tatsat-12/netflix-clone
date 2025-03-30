@@ -1,0 +1,16 @@
+/* Responsive Media Queries */
+@media (max-width: map-get($breakpoints, 'lg')) {
+    .card {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .poster-wrapper {
+      margin-right: 0;
+    }
+  
+    .card img {
+      margin-bottom: 20px;
+    }
+  }
+  
